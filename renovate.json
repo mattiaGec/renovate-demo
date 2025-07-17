@@ -3,7 +3,7 @@
     "config:recommended"
   ],
   "timezone": "Europe/Zurich",
-  "schedule": "after 6am and before 6pm",
+  "schedule": "after 4pm and before 5pm",
   "automerge": true,
   "labels": [
     "renovate"
