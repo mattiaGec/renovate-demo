@@ -6,6 +6,7 @@
   "prCreation": "immediate",
   "prHourlyLimit": 0,
   "prConcurrentLimit": 8,
+  "rangeStrategy": "bump",
   "packageRules": [
     {
       "groupName": "date-fns",
@@ -35,7 +36,18 @@
       "matchUpdateTypes": [
         "patch",
         "minor"
-      ]
+      ],
+      "enabled": true
+    },
+    {
+      "groupName": "mui",
+      "matchPackageNames": [
+        "@mui*"
+      ],
+      "matchUpdateTypes": [
+        "major"
+      ],
+      "enabled": true
     }
   ],
   "timezone": "Europe/Zurich",
