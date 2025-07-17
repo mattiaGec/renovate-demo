@@ -17,10 +17,19 @@
         "patch",
         "minor"
       ]
+    },
+    {
+      "groupName": "lodash",
+      "matchPackageNames": [
+        "lodash"
+      ],
+      "matchUpdateTypes": [
+        "patch",
+        "minor"
+      ]
     }
   ],
   "timezone": "Europe/Zurich",
-  "schedule": ["after 16:25 and before 16:30 every day"],
   "automerge": true,
   "labels": [
     "renovate"
