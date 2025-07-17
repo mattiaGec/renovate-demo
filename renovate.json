@@ -4,7 +4,7 @@
   ],
   "timezone": "Europe/Zurich",
   "schedule": [
-    "every day"
+    "* 0-14 * * *"
   ],
   "automerge": true,
   "labels": [
