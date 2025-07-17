@@ -51,7 +51,7 @@
     }
   ],
   "timezone": "Europe/Zurich",
-  "schedule": ["after 16:00 and before 16:15 every day"],
+  "schedule": ["after 16:10 and before 16:15 every day"],
   "automerge": true,
   "labels": [
     "renovate"
