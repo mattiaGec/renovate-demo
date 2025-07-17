@@ -51,7 +51,7 @@
     }
   ],
   "timezone": "Europe/Zurich",
-  "schedule": ["10 16 * * *"],
+  "schedule": "0 17 * * *",
   "automerge": true,
   "labels": [
     "renovate"
