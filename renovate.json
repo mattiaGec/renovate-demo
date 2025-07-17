@@ -4,10 +4,11 @@
   ],
   "timezone": "Europe/Zurich",
   "schedule": [
-    "* 14 * * *"
+    "every day"
   ],
   "automerge": true,
   "labels": [
     "renovate"
-  ]
+  ],
+  "onboarding": false
 }
