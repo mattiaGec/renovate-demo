@@ -1,7 +1,13 @@
 {
-  "extends": ["config:base"],
+  "extends": [
+    "config:recommended"
+  ],
   "timezone": "Europe/Zurich",
-  "schedule": ["* * * * 0,6"],
+  "schedule": [
+    "* * * * 0,6"
+  ],
   "automerge": true,
-  "labels": ["renovate"]
+  "labels": [
+    "renovate"
+  ]
 }
