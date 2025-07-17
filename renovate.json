@@ -9,46 +9,14 @@
   "prConcurrentLimit": 8,
   "packageRules": [
     {
-      "groupName": "MUIX",
+      "groupName": "date-fns",
       "matchPackageNames": [
-        "@mui/x-*"
-      ]
-    },
-    {
-      "groupName": "MUI",
-      "matchPackageNames": [
-        "@mui/icons-material",
-        "@mui/material"
-      ]
-    },
-    {
-      "groupName": "emotion",
-      "matchPackageNames": [
-        "@emotion/*"
-      ]
-    },
-    {
-      "groupName": "dnd-kit",
-      "matchPackageNames": [
-        "@dnd-kit/*"
-      ]
-    },
-    {
-      "groupName": "vitest",
-      "matchPackageNames": [
-        "vitest",
-        "@vitest/*"
-      ]
-    },
-    {
-      "matchDepTypes": [
-        "devDependencies"
+        "date-fns"
       ],
       "matchUpdateTypes": [
         "patch",
         "minor"
-      ],
-      "groupName": "devDependencies non-major"
+      ]
     }
   ],
   "timezone": "Europe/Zurich",
