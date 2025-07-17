@@ -51,7 +51,7 @@
     }
   ],
   "timezone": "Europe/Zurich",
-  "schedule": "at 16:05 every day",
+  "schedule": "every day at 16:05",
   "automerge": true,
   "labels": [
     "renovate"
