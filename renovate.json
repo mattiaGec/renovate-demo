@@ -1,7 +1,7 @@
 {
   "extends": ["config:base"],
   "timezone": "Europe/Zurich",
-  "schedule": ["every day"],
+  "schedule": ["*/10 * * * *"],
   "automerge": true,
   "labels": ["renovate"]
 }
