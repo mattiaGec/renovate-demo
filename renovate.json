@@ -26,6 +26,16 @@
         "patch",
         "minor"
       ]
+    },
+    {
+      "groupName": "mui",
+      "matchPackageNames": [
+        "@mui*"
+      ],
+      "matchUpdateTypes": [
+        "patch",
+        "minor"
+      ]
     }
   ],
   "timezone": "Europe/Zurich",
