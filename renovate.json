@@ -1,5 +1,7 @@
 {
-  "extends": ["config:best-practices"],
+  "extends": [
+    "config:best-practices"
+  ],
   "includePaths": [
     "package.json"
   ],
@@ -20,7 +22,9 @@
     }
   ],
   "timezone": "Europe/Zurich",
-  "schedule": ["after 16:25 and before 16:30 every day"],
+  "schedule": [
+    "after 16:25 and before 16:30"
+  ],
   "automerge": true,
   "labels": [
     "renovate"
