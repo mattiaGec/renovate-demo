@@ -1,9 +1,57 @@
 {
-  "extends": [
-    "config:recommended"
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "includePaths": [
+    "package.json"
+  ],
+  "rangeStrategy": "bump",
+  "prHourlyLimit": 0,
+  "prConcurrentLimit": 8,
+  "packageRules": [
+    {
+      "groupName": "MUIX",
+      "matchPackageNames": [
+        "@mui/x-*"
+      ]
+    },
+    {
+      "groupName": "MUI",
+      "matchPackageNames": [
+        "@mui/icons-material",
+        "@mui/material"
+      ]
+    },
+    {
+      "groupName": "emotion",
+      "matchPackageNames": [
+        "@emotion/*"
+      ]
+    },
+    {
+      "groupName": "dnd-kit",
+      "matchPackageNames": [
+        "@dnd-kit/*"
+      ]
+    },
+    {
+      "groupName": "vitest",
+      "matchPackageNames": [
+        "vitest",
+        "@vitest/*"
+      ]
+    },
+    {
+      "matchDepTypes": [
+        "devDependencies"
+      ],
+      "matchUpdateTypes": [
+        "patch",
+        "minor"
+      ],
+      "groupName": "devDependencies non-major"
+    }
   ],
   "timezone": "Europe/Zurich",
-  "schedule": "after 4pm and before 5pm",
+  "schedule": "at 16:05 every day",
   "automerge": true,
   "labels": [
     "renovate"
