@@ -4,7 +4,6 @@
     "package.json"
   ],
   "prCreation": "immediate",
-  "rangeStrategy": "bump",
   "prHourlyLimit": 0,
   "prConcurrentLimit": 8,
   "packageRules": [
