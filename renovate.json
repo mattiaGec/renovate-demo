@@ -3,6 +3,7 @@
   "includePaths": [
     "package.json"
   ],
+  "prCreation": "immediate",
   "rangeStrategy": "bump",
   "prHourlyLimit": 0,
   "prConcurrentLimit": 8,
@@ -51,7 +52,7 @@
     }
   ],
   "timezone": "Europe/Zurich",
-  "schedule": ["after 16:15 and before 16:20 every day"],
+  "schedule": ["after 16:25 and before 16:30 every day"],
   "automerge": true,
   "labels": [
     "renovate"
