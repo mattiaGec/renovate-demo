@@ -4,7 +4,7 @@
   ],
   "timezone": "Europe/Zurich",
   "schedule": [
-    "* 13-14 * * *"
+    "10 13 * * *"
   ],
   "automerge": true,
   "labels": [
