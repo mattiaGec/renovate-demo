@@ -47,7 +47,7 @@
       "matchUpdateTypes": [
         "major"
       ],
-      "enabled": true
+      "enabled": false
     }
   ],
   "timezone": "Europe/Zurich",
