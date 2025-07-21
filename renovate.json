@@ -3,7 +3,7 @@
   "includePaths": [
     "package.json"
   ],
-  "baseBranchPatterns": ["main"],
+  "baseBranches": ["main"],
   "prCreation": "immediate",
   "prHourlyLimit": 0,
   "prConcurrentLimit": 8,
