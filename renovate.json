@@ -6,7 +6,7 @@
   "baseBranches": ["main"],
   "prCreation": "immediate",
   "prHourlyLimit": 0,
-  "prConcurrentLimit": 8,
+  "prConcurrentLimit": 20,
   "rangeStrategy": "bump",
   "packageRules": [
     {
@@ -52,7 +52,7 @@
     }
   ],
   "timezone": "Europe/Zurich",
-  "automerge": true,
+  "automerge": false,
   "labels": [
     "renovate"
   ]
