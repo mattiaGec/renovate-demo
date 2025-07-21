@@ -1,9 +1,13 @@
 {
-  "extends": ["config:best-practices"],
+  "extends": [
+    "config:best-practices"
+  ],
   "includePaths": [
     "package.json"
   ],
-  "baseBranches": ["main"],
+  "baseBranchPatterns": [
+    "main"
+  ],
   "prCreation": "immediate",
   "prHourlyLimit": 0,
   "prConcurrentLimit": 20,
