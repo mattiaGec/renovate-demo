@@ -2,7 +2,7 @@ name: Renovate
 
 on:
   schedule:
-    - cron: '35 09 * * 1-5'   # Every weekday at 17:00
+    - cron: '40 07 * * 1-5'   # Every weekday at 17:00
   workflow_dispatch:        # Manual trigger option
 
 jobs:
