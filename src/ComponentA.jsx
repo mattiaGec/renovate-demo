@@ -1,6 +1,9 @@
 function ComponentA() {
     return (
-        <div>A</div>
+        <>
+            <div>A</div>
+            <p>B</p>
+        </>
         )
     }
 
