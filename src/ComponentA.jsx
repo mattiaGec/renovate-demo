@@ -3,6 +3,7 @@ function ComponentA() {
         <>
             <div>A</div>
             <p>B</p>
+            <p>C</p>
         </>
         )
     }
