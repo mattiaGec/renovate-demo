@@ -29,9 +29,9 @@
       ]
     },
     {
-      "groupName": "mui",
+      "groupName": "redux - minor ",
       "matchPackageNames": [
-        "@mui*"
+        "redux"
       ],
       "matchUpdateTypes": [
         "patch",
@@ -40,9 +40,9 @@
       "enabled": true
     },
     {
-      "groupName": "mui",
+      "groupName": "redux - major",
       "matchPackageNames": [
-        "@mui*"
+        "redux"
       ],
       "matchUpdateTypes": [
         "major"
