@@ -9,6 +9,13 @@ jobs:
   renovate:
     runs-on: ubuntu-latest
     steps:
+      - name: Check Docker availability
+        run: |
+          docker --version
+          docker info
+
       - uses: renovatebot/github-action@v40.1.11
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
+        env:
+          RENOVATE_LOG_LEVEL: debug
