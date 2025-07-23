@@ -23,7 +23,7 @@ If your dependency files are not in the root directory, you can specify their pa
   ],
 ```
 
-## RUN MDOES
+## RUN MODES
 Renovate runs can be triggered in three ways:
 
 ### Automatically
@@ -45,7 +45,7 @@ There are three configuration levels:
 * **Global**: Create a repository called .github and place renovate.json in the root.
 All repositories under your org or user account using the GitHub App will automatically inherit the global configuration.
 Bitbucket doesn't allow this but it possible to import a schema with the `"extends"`configuration.
-* **Project**: Add `renovate.json to the repository root.
+* **Project**: Add `renovate.json` to the repository root.
 * **Package**: Use `packageRules` to define rules for specific packages.
 
 ### JSON CONFIG EXAMPLE
