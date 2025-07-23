@@ -6,6 +6,7 @@
   },
   "packageRules": [
     {
+      "groupName": "minor",
       "matchUpdateTypes": ["minor", "patch"],
       "labels": ["renovate-security-minor"]
     },
