@@ -8,7 +8,7 @@
   },
   "packageRules": [
     {
-      "groupName": "non-major-updates",
+      "groupName": "security-minor-and-patch",
       "matchUpdateTypes": ["minor", "patch"],
       "labels": ["renovate-security-minor-patch"]
     },
