@@ -3,19 +3,19 @@
   "extends": ["config:recommended"],
   "packageRules": [
     {
-      "groupName": "major updatesa",
+      "groupName": "major update",
       "matchUpdateTypes": ["major"],
       "matchPackagePatterns": ["*"],
       "labels": ["major"]
     },
     {
-      "groupName": "minor updatesaa",
+      "groupName": "minor update",
       "matchUpdateTypes": ["minor"],
       "matchPackagePatterns": ["*"],
       "labels": ["minor"]
     },
     {
-      "groupName": "patch updatesa",
+      "groupName": "patch update",
       "matchUpdateTypes": ["patch"],
       "matchPackagePatterns": ["*"],
       "labels": ["patch"]
