@@ -1,6 +1,7 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": ["security:only-security-updates"],
+  "ignorePresets": ["group:monorepos", "group:recommended"],
   "lockFileMaintenance": {
     "enabled": false
   },
@@ -8,7 +9,8 @@
     {
       "groupName": "security-patch",
       "matchUpdateTypes": ["patch"],
-      "labels": ["renovate-security-patch"]
+      "labels": ["renovate-security-patch"],
+      "upda"
     },
     {
       "groupName": "security-minor",
