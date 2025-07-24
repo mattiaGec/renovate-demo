@@ -1,7 +1,6 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": ["security:only-security-updates"],
-  "ignorePresets": ["group:monorepos", "group:recommended"],
   "lockFileMaintenance": {
     "enabled": false
   },
