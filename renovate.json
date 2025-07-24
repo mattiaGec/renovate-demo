@@ -5,17 +5,17 @@
     {
       "groupName": "security patches",
       "matchUpdateTypes": ["patch"],
-      "labels": ["security-patch"]
+      "labels": ["renovate-security-patch"]
     },
     {
       "groupName": "security minor updates",
       "matchUpdateTypes": ["minor"],
-      "labels": ["security-minor"]
+      "labels": ["renovate-security-minor"]
     },
     {
       "groupName": "security major updates",
       "matchUpdateTypes": ["major"],
-      "labels": ["security-major"]
+      "labels": ["renovate-security-major"]
     }
   ],
   "lockFileMaintenance": { "enabled": false },
