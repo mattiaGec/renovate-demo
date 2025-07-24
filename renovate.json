@@ -3,12 +3,6 @@
   "extends": ["config:recommended"],
   "packageRules": [
     {
-      "enabled": false,
-      "matchPackageNames": [
-        "*"
-      ]
-    },
-    {
       "groupName": "major updates",
       "matchUpdateTypes": ["major"],
       "matchPackagePatterns": ["*"],
@@ -25,8 +19,14 @@
       "matchUpdateTypes": ["patch"],
       "matchPackagePatterns": ["*"],
       "labels": ["patch"]
+    },
+    {
+      "enabled": false,
+      "matchPackageNames": [
+        "*"
+      ]
     }
   ],
   "lockFileMaintenance": { "enabled": false },
-  "prConcurrentLimit": 4,
+  "prConcurrentLimit": 4
 }
