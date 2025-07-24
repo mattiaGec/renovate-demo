@@ -5,16 +5,19 @@
     {
       "groupName": "security patches",
       "matchUpdateTypes": ["patch"],
+      "matchPackagePatterns": ["*"],
       "labels": ["renovate-security-patch"]
     },
     {
       "groupName": "security minor updates",
       "matchUpdateTypes": ["minor"],
+      "matchPackagePatterns": ["*"],
       "labels": ["renovate-security-minor"]
     },
     {
       "groupName": "security major updates",
       "matchUpdateTypes": ["major"],
+      "matchPackagePatterns": ["*"],
       "labels": ["renovate-security-major"]
     }
   ],
