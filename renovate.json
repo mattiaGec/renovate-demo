@@ -1,7 +1,6 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": ["config:recommended"],
-  "recreateWhen": "always",
   "packageRules": [
     {
       "groupName": "major updates",
@@ -21,7 +20,5 @@
       "matchPackagePatterns": ["*"],
       "labels": ["patch"]
     }
-  ],
-  "lockFileMaintenance": { "enabled": false },
-  "prConcurrentLimit": 4
+  ]
 }
