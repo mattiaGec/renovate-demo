@@ -8,17 +8,12 @@
   },
   "packageRules": [
     {
-      "groupName": "minor",
+      "groupName": "non-major-updates",
       "matchUpdateTypes": ["minor", "patch"],
-      "labels": ["renovate-security-minor"]
+      "labels": ["renovate-security-minor-patch"]
     },
     {
-      "groupName": "patch",
-      "matchUpdateTypes": ["patch"],
-      "labels": ["renovate-security-patch"]
-    },
-    {
-      "groupName": "major",
+      "groupName": "security-major",
       "matchUpdateTypes": ["major"],
       "labels": ["renovate-security-major"]
     }
