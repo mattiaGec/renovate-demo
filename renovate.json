@@ -1,31 +1,29 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "extends": ["config:recommended"],
+  "extends": ["security:only-security-updates"],
+  "lockFileMaintenance": {
+    "enabled": false
+  },
   "packageRules": [
     {
-      "groupName": "major updates",
-      "matchUpdateTypes": ["major"],
-      "matchPackagePatterns": ["*"],
-      "labels": ["major"]
-    },
-    {
-      "groupName": "minor updates",
-      "matchUpdateTypes": ["minor"],
-      "matchPackagePatterns": ["*"],
-      "labels": ["minor"]
-    },
-    {
-      "groupName": "patch updates",
+      "groupName": "security-patch",
       "matchUpdateTypes": ["patch"],
       "matchPackagePatterns": ["*"],
-      "labels": ["patch"]
+      "labels": ["renovate-security-patch"]
+    },
+    {
+      "groupName": "security-minor",
+      "matchUpdateTypes": ["minor"],
+      "matchPackagePatterns": ["*"],
+      "labels": ["renovate-security-minor"]
+    },
+    {
+      "groupName": "security-major",
+      "matchUpdateTypes": ["major"],
+      "matchPackagePatterns": ["*"],
+      "labels": ["renovate-security-major"]
     }
   ],
-  "lockFileMaintenance": { "enabled": false },
-  "prConcurrentLimit": 0,
-  "prHourlyLimit": 0,
-  "vulnerabilityAlerts": {
-    "enabled": true
-  },
-  "osvVulnerabilityAlerts": true
+  "updateLockFiles": true,
+  "prConcurrentLimit": 0
 }
