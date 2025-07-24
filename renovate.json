@@ -1,6 +1,8 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": ["config:recommended"],
+  "repositoryCache": "reset",
+  "recreateWhen": "always",
   "packageRules": [
     {
       "groupName": "major updates",
@@ -13,7 +15,7 @@
       "groupName": "minor updates",
       "matchUpdateTypes": ["minor"],
       "matchPackagePatterns": ["*"],
-      "labels": ["minor"],
+      "labels": ["minor"],§
       "recreateWhen": "always"
     },
     {
