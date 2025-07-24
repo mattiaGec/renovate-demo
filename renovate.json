@@ -27,6 +27,9 @@
       ]
     }
   ],
+  "vulnerabilityAlerts": {
+    "enabled": true
+  },
   "osvVulnerabilityAlerts": true,
   "lockFileMaintenance": { "enabled": false },
   "prConcurrentLimit": 4
