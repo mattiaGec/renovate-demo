@@ -1,29 +1,23 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": ["security:only-security-updates"],
-  "lockFileMaintenance": {
-    "enabled": false
-  },
   "packageRules": [
     {
-      "groupName": "security-patch",
+      "groupName": "security patches",
       "matchUpdateTypes": ["patch"],
-      "labels": ["renovate-security-patch"],
-      "separateMajorMinor": false
+      "labels": ["security-patch"]
     },
     {
-      "groupName": "security-minor",
+      "groupName": "security minor updates",
       "matchUpdateTypes": ["minor"],
-      "labels": ["renovate-security-minor"],
-      "separateMajorMinor": false
+      "labels": ["security-minor"]
     },
     {
-      "groupName": "security-major",
+      "groupName": "security major updates",
       "matchUpdateTypes": ["major"],
-      "labels": ["renovate-security-major"],
-      "separateMajorMinor": false
+      "labels": ["security-major"]
     }
   ],
-  "updateLockFiles": true,
+  "lockFileMaintenance": { "enabled": false },
   "prConcurrentLimit": 4
 }
