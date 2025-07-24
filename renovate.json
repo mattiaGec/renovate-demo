@@ -2,28 +2,24 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": ["config:recommended"],
   "repositoryCache": "reset",
-  "recreateWhen": "always",
   "packageRules": [
     {
       "groupName": "major updates",
       "matchUpdateTypes": ["major"],
       "matchPackagePatterns": ["*"],
-      "labels": ["major"],
-      "recreateWhen": "always"
+      "labels": ["major"]
     },
     {
       "groupName": "minor updates",
       "matchUpdateTypes": ["minor"],
       "matchPackagePatterns": ["*"],
-      "labels": ["minor"],
-      "recreateWhen": "always"
+      "labels": ["minor"]
     },
     {
       "groupName": "patch updates",
       "matchUpdateTypes": ["patch"],
       "matchPackagePatterns": ["*"],
-      "labels": ["patch"],
-      "recreateWhen": "always"
+      "labels": ["patch"]
     }
   ],
   "lockFileMaintenance": { "enabled": false },
