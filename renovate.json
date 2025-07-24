@@ -8,17 +8,20 @@
     {
       "groupName": "security-patch",
       "matchUpdateTypes": ["patch"],
-      "labels": ["renovate-security-patch"]
+      "labels": ["renovate-security-patch"],
+      "separateMajorMinor": false
     },
     {
       "groupName": "security-minor",
       "matchUpdateTypes": ["minor"],
-      "labels": ["renovate-security-minor"]
+      "labels": ["renovate-security-minor"],
+      "separateMajorMinor": false
     },
     {
       "groupName": "security-major",
       "matchUpdateTypes": ["major"],
-      "labels": ["renovate-security-major"]
+      "labels": ["renovate-security-major"],
+      "separateMajorMinor": false
     }
   ],
   "updateLockFiles": true,
