@@ -9,8 +9,7 @@
     {
       "groupName": "security-patch",
       "matchUpdateTypes": ["patch"],
-      "labels": ["renovate-security-patch"],
-      "upda"
+      "labels": ["renovate-security-patch"]
     },
     {
       "groupName": "security-minor",
