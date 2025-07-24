@@ -3,6 +3,12 @@
   "extends": ["config:recommended"],
   "packageRules": [
     {
+      "enabled": false,
+      "matchPackageNames": [
+        "*"
+      ]
+    },
+    {
       "groupName": "major updates",
       "matchUpdateTypes": ["major"],
       "matchPackagePatterns": ["*"],
