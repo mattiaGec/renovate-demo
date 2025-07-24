@@ -1,8 +1,6 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": ["security:only-security-updates"],
-  "separateMultipleMinor": "false",
-  "separateMinorPatch": "false",
   "lockFileMaintenance": {
     "enabled": false
   },
@@ -13,6 +11,12 @@
       "labels": ["renovate-security-minor"]
     },
     {
+      "groupName": "patch",
+      "matchUpdateTypes": ["patch"],
+      "labels": ["renovate-security-patch"]
+    },
+    {
+      "groupName": "major",
       "matchUpdateTypes": ["major"],
       "labels": ["renovate-security-major"]
     }
