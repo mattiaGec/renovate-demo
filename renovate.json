@@ -19,6 +19,12 @@
       "matchUpdateTypes": ["patch"],
       "matchPackagePatterns": ["*"],
       "labels": ["patch"]
+    },
+    {
+      "enabled": false,
+      "matchPackageNames": [
+        "*"
+      ]
     }
   ],
   "lockFileMaintenance": { "enabled": false },
