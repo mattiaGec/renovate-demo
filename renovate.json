@@ -3,6 +3,7 @@
   "extends": ["security:only-security-updates"],
   "separateMultipleMajor": false,
   "separateMultipleMinor": false,
+  "separateMinorPatch": false,
   "lockFileMaintenance": {
     "enabled": false
   },
