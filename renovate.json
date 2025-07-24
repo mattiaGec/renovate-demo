@@ -6,23 +6,6 @@
   "lockFileMaintenance": {
     "enabled": false
   },
-  "packageRules": [
-    {
-      "groupName": "minor",
-      "matchUpdateTypes": ["minor", "patch"],
-      "labels": ["renovate-security-minor"]
-    },
-    {
-      "groupName": "patch",
-      "matchUpdateTypes": ["patch"],
-      "labels": ["renovate-security-patch"]
-    },
-    {
-      "groupName": "major",
-      "matchUpdateTypes": ["major"],
-      "labels": ["renovate-security-major"]
-    }
-  ],
   "updateLockFiles": true,
   "prConcurrentLimit": 4
 }
