@@ -1,6 +1,8 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": ["security:only-security-updates"],
+  "separateMultipleMajor": false,
+  "separateMultipleMinor": false,
   "lockFileMaintenance": {
     "enabled": false
   },
