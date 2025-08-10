@@ -16,7 +16,7 @@
     "jquery": "^3.4.0",
     "lodash": "4.17.20",
     "marked": "0.3.6",
-    "minimist": "^0.0.8",
+    "minimist": "^0.2.0",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
     "redux": "4.0.0",
