@@ -15,7 +15,7 @@
     "express": "4.0.0",
     "jquery": "^3.4.0",
     "lodash": "4.17.20",
-    "marked": "0.3.6",
+    "marked": "4.0.10",
     "minimist": "^0.0.8",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
