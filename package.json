@@ -12,7 +12,7 @@
   "dependencies": {
     "@mui/icons-material": "6.0.0",
     "date-fns": "3.0.0",
-    "express": "4.0.0",
+    "express": "4.20.0",
     "jquery": "^3.4.0",
     "lodash": "4.17.20",
     "marked": "0.3.6",
